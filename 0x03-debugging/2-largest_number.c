@@ -23,12 +23,7 @@ int largest_number(int a, int b, int c)
     else if (c > b && b > a)
     {
         largest = c;
-      
-	int a = 987
-	int b = -89
-	int c =0
     }
 
     return (largest);
 }
-
