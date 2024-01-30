@@ -1,19 +1,16 @@
-#include "main.h"
 #include <stdio.h>
 
 /**
- * reset_to_98
+ * reset_to_98 - Takes a pointer to an int and updates
+ * the value of points to 98
  *
- * Return: Always 0.
+ * @n: An integer input pointer
+ *
+ * Return: nothing
  */
-int main(void)
+
+void reset_to_98(int *n)
+
 {
-    int n;
-
-    n = 402;
-    printf("n=%d\n", n);
-    void reset_to_98(&n);
-    printf("n=%d\n", n);
-    return (0);
+	*n = 98;
 }
-
